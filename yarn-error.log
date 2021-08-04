@@ -1,0 +1,91 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /Users/bluce/.rvm/gems/ruby-3.0.0/bin:/Users/bluce/.rvm/gems/ruby-3.0.0@global/bin:/Users/bluce/.rvm/rubies/ruby-3.0.0/bin:/usr/local/mongodb/bin:/usr/local/ffmpeg/bin:/usr/local/Cellar/ruby/3.0.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/bluce/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (node:events:365:28)
+      at Interface._ttyWrite (node:readline:1069:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:365:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:365:28)
+      at addChunk (node:internal/streams/readable:314:12)
+
+npm manifest: 
+  {
+    "name": "tw-carouser",
+    "version": "1.2.0",
+    "description": "'tw轮播图'",
+    "main": "./src/index.js",
+    "types": "./src/index.d.ts",
+    "repository": "git@github.com:MYliuxiang/tw-carouser.git",
+    "author": "'flyliu'",
+    "license": "MIT",
+    "keywords": [
+            "react",
+            "native",
+            "carousel",
+            "slider",
+            "swiper",
+            "flatlist",
+            "scrollview",
+            "parallax",
+            "images",
+            "infinite",
+            "scroll",
+            "scrolling",
+            "items",
+            "edge",
+            "snap",
+            "card",
+            "cards",
+            "stack",
+            "deck",
+            "tinder",
+            "android",
+            "ios",
+            "snapping",
+            "component",
+            "rtl"
+        ],
+    "dependencies": {
+      "prop-types": "^15.6.1",
+      "react-addons-shallow-compare": "15.6.2"
+    },
+    "peerDependencies": {
+      "react": ">=15.0.0",
+      "react-native": "*"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.2.2",
+      "eslint": "^4.19.1",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-config-standard-react": "^5.0.0",
+      "eslint-plugin-import": "^2.11.0",
+      "eslint-plugin-node": "^5.2.1",
+      "eslint-plugin-promise": "^3.7.0",
+      "eslint-plugin-react": "^7.7.0",
+      "eslint-plugin-standard": "^3.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
